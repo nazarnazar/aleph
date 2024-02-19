@@ -6,7 +6,7 @@ OpenVPN config files support:
 * continue with https://docs.alephdata.org/developers/installation
 * openvpn-test-config-files folder has some OpenVPN example config files for testing
 
-![Image 1](https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.32.39.png)
+.. image:: https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.32.39.png
 
 ![Image 1](screens/Screenshot 2024-02-19 at 19.34.34.png)
 
