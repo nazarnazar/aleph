@@ -31,6 +31,14 @@ export class DocumentViewMode extends React.Component {
       return <DefaultViewer document={document} dir={dir} />;
     }
 
+    if (document.schema.isA('OpenVpn')) {
+      if (activeMode === 'browse') {
+        return <FolderViewer document={document} dir={dir} />;
+      }
+      return (
+        <TextViewer document={document} activeMode={activeMode} dir={dir} />
+      );
+    }
     if (document.schema.isA('Email')) {
       if (activeMode === 'browse') {
         return <FolderViewer document={document} dir={dir} />;

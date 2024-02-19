@@ -20,12 +20,13 @@ RUN groupadd -g 1000 -r app \
 # Install Python dependencies
 RUN pip3 install --no-cache-dir -q -U pip setuptools six
 
+COPY . /aleph
+WORKDIR /aleph
+
 COPY requirements.txt /tmp/
 RUN pip3 install --no-cache-dir -q -r /tmp/requirements.txt
 
 # Install aleph
-COPY . /aleph
-WORKDIR /aleph
 ENV PYTHONPATH /aleph
 RUN pip install --no-cache-dir -q -e /aleph
 

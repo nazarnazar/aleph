@@ -21,10 +21,11 @@ export class DocumentUploadForm extends PureComponent {
     const rejectedFiles = [];
 
     const files = Array.from(event.target.files).filter((file) => {
-      if (!file.type || file.type === '') {
-        rejectedFiles.push(file);
-        return false;
-      }
+      // TODO: update file type check logic
+      // if (!file.type || file.type === '') {
+      //   rejectedFiles.push(file);
+      //   return false;
+      // }
       return true;
     });
 
