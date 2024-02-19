@@ -1,3 +1,12 @@
+OpenVPN config files support:
+-----------------------------
+
+* git clone -b feature/openvpn git@github.com:nazarnazar/aleph.git
+* git submodule update --init --recursive
+* continue with https://docs.alephdata.org/developers/installation
+* openvpn-test-config-files folder has some OpenVPN example config files for testing
+
+
 .. epigraph::
 
   Truth cannot penetrate a closed mind. If all places in the universe are in
