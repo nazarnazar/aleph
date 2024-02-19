@@ -10,17 +10,11 @@ Program screenshots:
 -----------------------------
 
 .. image:: https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.32.39.png
-
 .. image:: https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.34.34.png
-
 .. image:: https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.34.44.png
-
 .. image:: https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.34.53.png
-
 .. image:: https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.35.00.png
-
 .. image:: https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.35.07.png
-
 .. image:: https://github.com/nazarnazar/aleph/blob/feature/openvpn/screens/Screenshot%202024-02-19%20at%2019.36.19.png
 
 -----------------------------
